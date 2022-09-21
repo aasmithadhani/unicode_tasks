@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+    <div class="container">
+        <main class="form-signin w-100 m-auto">
+            
+              <h1 class="h3 mb-3 fw-normal">CONTACT ME</h1>
+              <form name="myForm" onsubmit="return validateForm()" method="get">
+                <div class="formdesign" id="name">
+                Name: <input type="text" name="fname" required><b><span class="formerror"> </span></b>
+            </div>
+    
+            <div class="formdesign" id="email">
+                Email: <input type="email" name="femail" required><b><span class="formerror"> </span></b>
+            </div>
+    
+                    <div class="formdesign" id="phone">
+                        Phone: <input type="phone" name="fphone" required><b><span class="formerror"></span></b>
+                    </div>
+                    
+                    <button class="btn btn-lg btn-primary" type="submit">Submit</button>
+          </main>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
