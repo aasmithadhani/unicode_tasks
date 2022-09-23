@@ -44,3 +44,24 @@ body
     background-size: cover;
     
 }
+.list-group
+{
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+   
+}
+   
+.list-group-item
+{
+    background-color: rgb(212, 229, 252);
+    margin-top: 15px;
+    
+    
+}
+.past-project
+{
+    
+    margin-left: 10px;
+   
+}
